@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className="scrollbar-hide">
+    <div className="overflow-hidden scrollbar-hide">
       <Toaster />
       <div className="App scrollbar-hide">
         <h1>Eetu Petänen</h1>
