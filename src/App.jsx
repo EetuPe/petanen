@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="overflow-hidden scrollbar-hide">
       <Toaster />
-      <div className="App scrollbar-hide">
+      <div className="scrollbar-hide">
         <h1>Eetu Petänen</h1>
         <div className="card">
           <button onClick={() => greeting()}>Press Me!</button>
         </div>
         <h2>Projects I've worked on:</h2>
-        <div className="h-[400px] w-full scrollbar-hide">
+        <div className="h-[500px] w-full scrollbar-hide">
           <Slider items={items} width={450} visible={2}>
             {(item) => (
               <div className="h-full w-full scrollbar-hide">{item}</div>
