@@ -133,7 +133,7 @@ export default function MaterialCard() {
                 slotProps={{
                   action: {
                     component: 'a',
-                    href: 'https://produni.petanen.com'
+                    href: 'https://mentis.petanen.com'
                   }
                 }}
                 size="lg"
